@@ -1,0 +1,18 @@
+type Query {
+    paintings: [Painting]
+    artists: [Artist]
+}
+
+type Painting {
+    id: ID
+    name: String
+    year: Int
+    artist: Artist
+}
+
+type Artist {
+    id: ID
+    name: String
+    born: Int
+    died: Int
+}

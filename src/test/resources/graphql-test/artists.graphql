@@ -1,0 +1,8 @@
+query {
+    artists {
+        id
+        name
+        born
+        died
+    }
+}
